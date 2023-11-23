@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Membuat Kode Soal Di Exam Server Peserta Mahasiswa - BELAJAR</title>
+    <meta name="description" content="Membuat Kode Soal Di Exam Server Peserta Mahasiswa, , , , , , , 0, , , , , , 0, membuat-kode-soal-di-exam-server-peserta-mahasiswa, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Membuat Kode Soal Di Exam Server Peserta Mahasiswa - BELAJAR" />
+    <meta property="og:description" content="Membuat Kode Soal Di Exam Server Peserta Mahasiswa, , , , , , , 0, , , , , , 0, membuat-kode-soal-di-exam-server-peserta-mahasiswa, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Membuat Kode Soal Di Exam Server Peserta Mahasiswa - BELAJAR" />
+    <meta name="twitter:description" content="Membuat Kode Soal Di Exam Server Peserta Mahasiswa, , , , , , , 0, , , , , , 0, membuat-kode-soal-di-exam-server-peserta-mahasiswa, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://bukusoal.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://bukusoal.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://bukusoal.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://bukusoal.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://bukusoal.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://bukusoal.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://bukusoal.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://bukusoal.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://bukusoal.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://bukusoal.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Membuat Kode Soal Di Exam Server Peserta Mahasiswa</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">oeynoey02</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Membuat+Kode+Soal+Di+Exam+Server+Peserta+Mahasiswa" alt="Membuat Kode Soal Di Exam Server Peserta Mahasiswa">
+                    </div>
+                    <p></p>
+                    <p>Apakah bisa Ketahuan saat mengerjakan ulangan di exam browser android kita buka app  lain oleh server sekolah ??</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-bisa-ketahuan-saat-mengerjakan-ulangan-di-exam-browser-android-kita-buka-app-lain-oleh-server-sekolah">1.
+                                            Apakah bisa Ketahuan saat mengerjakan ulangan di exam browser android kita buka app  lain oleh server sekolah ??</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-5-buah-soal-penentuan-kode-warna-pada-resistor-beserta-jawabannyabantu-ya-kk-%e2%80%8b">2.
+                                            Buatlah 5 buah soal penentuan kode warna pada resistor beserta jawabannyabantu ya Kk :)​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-kartu-ucapan-dengan-5-pilihan-ganda-beserta-jawabannya-tentang-pass-the-exam">3.
+                                            Buatlah kartu ucapan dengan 5 pilihan ganda beserta jawabannya tentang pass the exam </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#data-15-alat-rumah-tangga-yang-terbuat-dari-plastik-beserta-kode-tera-dan-maksudnya">4.
+                                            data 15 alat rumah tangga yang terbuat dari plastik beserta kode tera dan maksudnya </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-cara-membuat-mail-server-di-windows-server-2003-tutorial">5.
+                                            Bagaimana Cara Membuat Mail Server di windows server 2003 (tutorial)? </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-macam-macam-software-dalam-administrasi-server-beserta-pengertiannya">6.
+                                            sebutkan macam macam software dalam administrasi server beserta pengertiannya !</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#soal-latihan-tentukanlah-tipe-data-yang-cocok-dari-data-mahasiswa-dibawah-ini-a-nim-b-nama-mahasiswa-c-kode-program-studi-d-gol-darah-e-grade-nilai%e2%80%8b">7.
+                                            soal latihan tentukanlah tipe data yang cocok dari data mahasiswa dibawah ini : a. nim b. nama mahasiswa c, kode program studi d. gol darah e. grade nilai​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#menurut-kalian-apa-tujuan-admin-server-untuk-membuat-dns-server">8.
+                                            menurut kalian, apa tujuan admin server untuk  membuat DNS server?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-hasil-76x34-5yang-bisa-dapet-kode-kreator-pk-xd-beserta-koinjawab-nya-nanti-sekalian-email-ya-soalnya-yang-bisa-kode-kreatornya-aku-kasi-ke-email-privat">9.
+                                            apa hasil 76x34: 5
+yang bisa dapet kode kreator PK XD beserta koin
+jawab nya nanti sekalian email ya soalnya yang bisa kode kreatornya aku kasi ke email privat</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kode-yang-digunakan-oleh-client-untuk-meminta-packet-server-apa-sih-misalnya-ada-c9-04-00-dsb">10.
+                                            kode yang digunakan oleh client untuk meminta packet server apa sih?? misalnya ada c9 04 00 dsb</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#ingkaran-yang-tepat-dari-%e2%80%9cbeberapa-peserta-pelatihan-merupakan-mahasiswa-teladan%e2%80%9d-adalah-%e2%80%a6a-tidak-satupun-peserta-pelatihan-bukan-mahasiswa-teladanb-semua-peserta-pelatihan">11.
+                                            Ingkaran yang tepat dari “beberapa peserta pelatihan merupakan mahasiswa teladan” adalah.…
+a. Tidak satupun peserta pelatihan bukan mahasiswa teladan
+b. Semua peserta pelatihan merupakan mahasiswa teladan
+c. Semua peserta pelatihan bukan mahasiswa teladan
+d. Beberapa peserta pelatihan bukan mahasiswa teladan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#definisi-dedicated-hosting-server-beserta-fungsi%e2%80%8b">12.
+                                            definisi dedicated hosting server beserta fungsi​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#the-teacher-gives-advice-prepare-our-server-well-before-the-final-examtolong-di-bantu%e2%80%8b">13.
+                                            the teacher gives advice..........prepare our server well before the final examtolong di bantu​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-cara-membuat-proxy-server">14.
+                                            bagaimana cara membuat proxy server </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-fungsi-baris-kode-dev-tun-dan-push-route-gateway-10-101-10-1-dalam-konfigurasi-server-conf-server-openvpn%e2%80%8b">15.
+                                            jelaskan fungsi baris kode Dev tun dan push route-gateway 10.101.10.1 dalam konfigurasi server.conf server OpenVPN​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-warna-dan-gambar-kode-pada-alat-produksi-rekayasa-teknik-beserta-fungsinya%e2%80%8b">16.
+                                            buatlah warna dan gambar kode pada alat produksi rekayasa teknik beserta fungsinya​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#semua-anggota-bem-badan-eksekutif-mahasiswa-harushadir-dalam-rapat-sementara-mahasiswa-adalah-anggotabem-kesimpulan-a-semua-mahasiswa-hadir-dalam-rapat-b-semua-peserta-rapat-bukan-mahasiswa">17.
+                                            Semua anggota BEM (Badan Eksekutif Mahasiswa) harushadir dalam rapat. Sementara mahasiswa adalah anggota
+BEM. Kesimpulan :
+A. Semua mahasiswa hadir dalam rapat.
+B. Semua peserta rapat bukan mahasiswa.
+C. Sementara peserta rapat bukan mahasiswa.
+D. Sementara mahasiswa harus hadir dalam rapat
+E. Sementara mahasiswa tidak hadir dalam rapat</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#soal-1-exam-iqmal-bercerita-selepas-dia-cerita-bagikan-exam-yg-sama-cam-kt-itu">18.
+                                            soal || 1. exam: iqmal bercerita selepas dia cerita || bagikan exam yg sama cam kt itu!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-dan-jelaskan-minimal-4-kode-yang-mewakili-respons-server-terhadap-permintaan-client%e2%80%8b">19.
+                                            Tuliskan dan jelaskan minimal 4 kode yang mewakili respons server terhadap permintaan client​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-cara-membuat-master-server">20.
+                                            Bagaimana cara membuat Master Server?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-minimal-3-jenis-software-untuk-membuat-server-ftp-beserta-kelebihannya-%e2%80%8b">21.
+                                            jelaskan minimal 3 jenis software untuk membuat server ftp beserta kelebihannya? ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#perhatikan-baris-kode-berikut-rootweb-server-1-echo-web1-var-www-html-index-html-fungsi-dari-baris-kode-tersebut-adalah%e2%80%8b">22.
+                                            perhatikan baris kode berikut root@web-server 1 :~ #echo "web1" &gt; /var / www / html / index. html fungsi dari baris kode tersebut adalah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-4-jenis-server-beserta-fungsinya">23.
+                                            sebutkan 4 jenis server beserta fungsinya?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-kode-kode-perintah-dalam-command-prompt-beserta-fungsinya%e2%80%8b">24.
+                                            tuliskan kode kode perintah dalam command prompt beserta fungsinya​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tolong-carikan-soal-ujian-nasional-matematika-tingkat-sma-tentang-program-linear-beserta-kode-soalnya-dan-tahunnya-%c2%a0">25.
+                                            tolong carikan soal ujian nasional MATEMATIKA tingkat SMA tentang program linear...beserta kode soalnya dan tahunnya :) </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tolong-artiin-buat-exam-soalnya-nih">26.
+                                            Tolong artiin buat exam soalnya nih..</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-contoh-booting-sederhanakode-program-beserta-hasil-tampillnya%e2%80%8b">27.
+                                            Buatlah contoh booting sederhanaKode program beserta hasil tampillnya​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#23-seorang-peneliti-berencana-untuk-mengidentifikasi-setiap-peserta-pada-sebuah-eksperimen-medis-menggunakan-sebuah-kode-kode-dapat-dibentuk-oleh-satu-buah-huruf-saja-atau-dua-buah-huruf-yang-berur">28.
+                                            23. Seorang peneliti berencana untuk mengidentifikasi setiap peserta pada sebuah eksperimen medis menggunakan sebuah kode, Kode dapat dibentuk oleh satu buah huruf saja, atau dua buah huruf yang berurutan secara alfabetis (contoh kode: B, T, Z, AB, CD, AG), Jika pada sebuah eksperimen terdapat 12 peserta dan setiap peserta akan mendapat kode yang berbeda-beda, berapa paling sedikit banyak huruf yang dapat digunakan untuk membuat kode bagi setiap peserta?a. 4b. 5c. 6d. 7e. 8​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jika-anda-diharuskan-memilih-antara-virtual-private-server-dan-dedicated-server-yang-mana-akan-anda-pilih-sertakan-alasan-anda%e2%80%8b">29.
+                                            jika anda diharuskan memilih antara virtual private server dan dedicated server yang mana akan Anda pilih sertakan alasan anda?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kenapa-saat-membuat-dhcp-server-winbox-mikrotik-dengan-server-199-99-9-1-malah-muncul-di-client-nya-ip-server-lain">30.
+                                            kenapa saat membuat dhcp server winbox mikrotik dengan server 199.99.9.1 malah muncul di client nya ip server lain?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-di-maksud-dengan-web-server-beserta-fungsinya">31.
+                                            Apa yang di maksud dengan Web Server? beserta fungsinya..</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-topologi-jaringan-yang-terdiri-dari-24-komputer-1-server-dan-2-modem-disertakan-juga-ip-subnet-mas-dan-gatewaynya">32.
+                                            Buatlah Topologi jaringan yang terdiri dari 24 komputer 1 server dan 2 modem disertakan juga IP , subnet mas , dan gatewaynya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-tujuan-membuat-mail-server">33.
+                                            apa tujuan membuat mail server</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-3-jenis-server-berserta-fungsinya">34.
+                                            sebutkan 3 jenis server berserta fungsinya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kode-jaringan-komputer-yang-setiap-host-dapat-menjadi-server-dan-juga-menjadi-sayuran-secara-bersamaan-adalah">35.
+                                            Kode jaringan komputer yang setiap host dapat menjadi server dan juga menjadi sayuran secara bersamaan adalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#materi-tentang-analisis-kebutuhan-perangkat-server-beserta-spek-hardware-dan-software-untuk-server">36.
+                                            materi tentang analisis kebutuhan perangkat server beserta spek hardware dan software untuk server?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kode-untuk-soal-ujian-terdiri-atas-tiga-karakter-digit-karakter-pertama-adalah-huruf-sementara-karakter-kedua-dan-ketiga-adalah-dua-angka-yang-berlainan-banyak-kode-soal-yang-dapat-dibuat-adalah">37.
+                                            kode untuk soal ujian terdiri atas tiga karakter (digit)  karakter pertama adalah huruf sementara karakter kedua dan ketiga adalah dua angka yang berlainan banyak kode soal yang dapat dibuat adalah </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tolong-buatkan-daily-aktivity-mahasiswa-2-paragraf-beserta-artinya">38.
+                                            tolong buatkan daily aktivity mahasiswa 2 paragraf beserta artinya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#membuat-aliran-sistem-imformasih-pendaptaran-mahasiswa-baru-beserta-arsif-lama-dan-arsif-baru%e2%80%8b">39.
+                                            membuat aliran sistem imformasih pendaptaran mahasiswa baru beserta arsif lama dan arsif baru​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#di-bawah-ini-yang-bukan-merupakan-tugas-utama-dari-seorang-admin-server-adalah-a-membangun-server-b-mengelola-server-c-memperbaiki-server-d-memelihara-server-e-membuat-laporan-server">40.
+                                            Di bawah ini yang bukan merupakan tugas utama dari seorang admin server adalah .... a. membangun server b. mengelola server c. memperbaiki server d. memelihara server e. membuat laporan server</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="apakah-bisa-ketahuan-saat-mengerjakan-ulangan-di-exam-browser-android-kita-buka-app-lain-oleh-server-sekolah">
+                            1. Apakah bisa Ketahuan saat mengerjakan ulangan di exam browser android kita buka app  lain oleh server sekolah ??</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>akan ketahuan kalo ada cctv tepat dibelakang monitormu atau guru memergokimu #sejutapohon</p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-5-buah-soal-penentuan-kode-warna-pada-resistor-beserta-jawabannyabantu-ya-kk-%e2%80%8b">
+                            2. Buatlah 5 buah soal penentuan kode warna pada resistor beserta jawabannyabantu ya Kk :)​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Contoh 1:</p><p></p><p>GELANG 1 = Cokelat</p><p>GELANG 2 = Hitam</p><p>GELANG 3 = Merah</p><p>GELANG 4 = Emas</p><p></p><p>NILAI :</p><p></p><p>= 1 Cokelat  0 hitam  X 100 Merah toleransi 5%</p><p></p><p>=10 x100</p><p></p><p>= 1000Ω</p><p></p><p>1000Ω = 1KΩ 5%</p><p>Jadi nilai resistor dengan warna gelang coklat ,hitam merah dan emas adalah 1 kilo Ohm toleransi 5%</p><p></p><p>CONTOH 2 :</p><p></p><p>GELANG 1 = Kuning</p><p>GELANG 2 = Ungu/violet</p><p>GELANG 3 = Merah</p><p>GELANG 4 = Perak</p><p></p><p>NILAI :</p><p></p><p>= 4 kuning  7 Ungu X 100 Merah</p><p></p><p>= 47 x100</p><p></p><p>= 4700Ω</p><p></p><p>4700Ω = 4K7 toleransi perak 10%</p><p></p><p>Jadi nilai hambatan resistor diketahui sebesar 4K7.</p><p><strong>Penjelasan:</strong></p><p></p><p>Toleransi menunjukkan keakuratan sebuah resistor, artinya seberapa besar nilai aktualnya yang berbeda dari nilai teoritisnya. Semakin kecil nilai % maka semakin akurat/presisi dari nilai sebuah resistor tsb.</p><p></p><p><strong>maaf</strong><strong> </strong><strong>cuma</strong><strong> </strong><strong>bisa</strong><strong> </strong><strong>bantu</strong><strong> </strong><strong>2</strong><strong> </strong><strong></strong></p><p><strong>semoga</strong><strong> </strong><strong>bermanfaat</strong><strong>,</strong><strong> </strong><strong>terima</strong><strong> </strong><strong>kasih</strong><strong> </strong><strong>:</strong><strong>)</strong></p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-kartu-ucapan-dengan-5-pilihan-ganda-beserta-jawabannya-tentang-pass-the-exam">
+                            3. Buatlah kartu ucapan dengan 5 pilihan ganda beserta jawabannya tentang pass the exam </h2><br />
+                        <p><strong>Jawaban:</strong></p><p>kartu ucapan dgn BHS Inggris:</p><p>a. Happy birthday to you.</p><p>b.I hope you stay healthy and loved by your family</p><p>c. I hope you live long</p><p>d.</p><p>e.</p><p>Jawaban:</p><p>Dear Wulan,</p><p></p><p>Congratulation on your success on the college entrance exam. May today success be just the beginning of your long life achievement and happiness. Remember the challenge is waiting for you in the college. Nevertheless, I believe that you can handle it well. Good luck!</p><p></p><p>Your best friend,</p><p>Fitri</p><p>1. The purpose of the text above is ....</p><p>A. To persuade someone</p><p>B. To entertain someone</p><p>C. To congratulate someone</p><p>D. To invite someone</p><p>answer (b)</p><p></p><p>2. What has Wulan done?</p><p>A. Won the contest</p><p>B. Passed the college entrance exam</p><p>C. Invited Fitri to his celebration day</p><p>D. Graduated from University</p><p>answer b</p><p></p><p>Read the following text to answer questions number 3 and 4.</p><p>Happy Mother's Day</p><p></p><p>Your smile brightens each day just as the morning rays shines on the hills and it’s with doubt that this gives us the courage to face the new day with joy.</p><p>3. To whom the card is sent?</p><p>A. Mother</p><p>B. Father</p><p>C. Grandmother</p><p>D. Grandfather</p><p>answer (a)</p><p></p><p>4. "... with doubt that this gives us ..." The underlined word has similar meaning to ....</p><p>A. Belief</p><p>B. Uncertainty</p><p>C. Selfish</p><p>D. Wealthy</p><p>answer (b)</p><p>Read the following text to answer questions number 5</p><p>CONGRATULATION!</p><p></p><p>Congratulation on your success in winning the badminton competition this year, Roni. It was a tough competition. We are so proud of you. We knew you would make it. We wish you the best always.</p><p></p><p>5. What do the students of VIII A say to complement their friend?</p><p>A. It was a tough competition</p><p>B. Winning the speech contest this year</p><p>C. We are so proud of you</p><p>D. We wish you the best always</p><p>answer (c)</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="data-15-alat-rumah-tangga-yang-terbuat-dari-plastik-beserta-kode-tera-dan-maksudnya">
+                            4. data 15 alat rumah tangga yang terbuat dari plastik beserta kode tera dan maksudnya </h2><br />
+                        panci , sendok.  garpu , wajan dan lain lain<br />
+                                            <h2 class="ez-toc-section" id="bagaimana-cara-membuat-mail-server-di-windows-server-2003-tutorial">
+                            5. Bagaimana Cara Membuat Mail Server di windows server 2003 (tutorial)? </h2><br />
+                        lihat di bayu-justshare4u.blogspot.co.id/2011/10/cara-membuat-mail-server-di-windows.html<br />
+                                            <h2 class="ez-toc-section" id="sebutkan-macam-macam-software-dalam-administrasi-server-beserta-pengertiannya">
+                            6. sebutkan macam macam software dalam administrasi server beserta pengertiannya !</h2><br />
+                        *mysql:merupakan sebuah perangkat lunak system manajemen basis data SQL<br />*oracle:adalah relational database management system (RDBMS) untuk mengelola informasi secara terbuka, komprehensif dan terintegrasi.<br />*firebird:adalah salah satu aplikasi RDBMS (Relational Database Management System) yang bersifat open source<br />yang lainnya menyusul ya....<br /><br />
+                                            <h2 class="ez-toc-section" id="soal-latihan-tentukanlah-tipe-data-yang-cocok-dari-data-mahasiswa-dibawah-ini-a-nim-b-nama-mahasiswa-c-kode-program-studi-d-gol-darah-e-grade-nilai%e2%80%8b">
+                            7. soal latihan tentukanlah tipe data yang cocok dari data mahasiswa dibawah ini : a. nim b. nama mahasiswa c, kode program studi d. gol darah e. grade nilai​</h2><br />
+                        <p>Jenis Tipe Data : </p><p>a. nim = Integer (int) - karna nim hanya memerlukan angka</p><p>b. nama mahasiswa = Char - Karena hanya memerlukan jenis huruf saja</p><p>c, kode program studi  = Varchar - Karena ada kombinasi antara huruf dan angka</p><p>d. gol darah = char - karena hanya karakter saja</p><p>e. grade nilai​ = Varchar = karena memerlukan simbol seperti (+) dan (-)</p><p></p><p><strong>Semoga Membantu</strong></p><p>A. NIM =&gt; Varchar </p><p>B. Nama mahasiswa =&gt; Varchar</p><p>C. Kode program studi = &gt; Varchar</p><p>D. Golongan Darah =&gt; Char</p><p>E. Grade Nilai =&gt; Char, apabila notasi penilaian berupa alfabet dan simbol +/-; Unsigned TinyInteger apabila penilaian menggunakan angka</p><p></p><p>Semoga jawaban ini membantu</p><br />
+                                            <h2 class="ez-toc-section" id="menurut-kalian-apa-tujuan-admin-server-untuk-membuat-dns-server">
+                            8. menurut kalian, apa tujuan admin server untuk  membuat DNS server?</h2><br />
+                        Kalo menurut saya pribadi, tujuan Admin tersebut adalah agar mempermudah dalam pembagian alamat IP kepada Client<br />
+                                            <h2 class="ez-toc-section" id="apa-hasil-76x34-5yang-bisa-dapet-kode-kreator-pk-xd-beserta-koinjawab-nya-nanti-sekalian-email-ya-soalnya-yang-bisa-kode-kreatornya-aku-kasi-ke-email-privat">
+                            9. apa hasil 76x34: 5
+yang bisa dapet kode kreator PK XD beserta koin
+jawab nya nanti sekalian email ya soalnya yang bisa kode kreatornya aku kasi ke email privat</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>45,6</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>= 76 × 3 : 5</p><p>= 45,6</p><p></p><p>semoga membantu</p><br />
+                                            <h2 class="ez-toc-section" id="kode-yang-digunakan-oleh-client-untuk-meminta-packet-server-apa-sih-misalnya-ada-c9-04-00-dsb">
+                            10. kode yang digunakan oleh client untuk meminta packet server apa sih?? misalnya ada c9 04 00 dsb</h2><br />
+                        mungkin yang dimaksud adalah password / kata sandi<br />mungkin itu dinamakan kode pin nya<br />
+                                            <h2 class="ez-toc-section" id="ingkaran-yang-tepat-dari-%e2%80%9cbeberapa-peserta-pelatihan-merupakan-mahasiswa-teladan%e2%80%9d-adalah-%e2%80%a6a-tidak-satupun-peserta-pelatihan-bukan-mahasiswa-teladanb-semua-peserta-pelatihan">
+                            11. Ingkaran yang tepat dari “beberapa peserta pelatihan merupakan mahasiswa teladan” adalah.…
+a. Tidak satupun peserta pelatihan bukan mahasiswa teladan
+b. Semua peserta pelatihan merupakan mahasiswa teladan
+c. Semua peserta pelatihan bukan mahasiswa teladan
+d. Beberapa peserta pelatihan bukan mahasiswa teladan</h2><br />
+                        <p><strong>Jawab:</strong></p><p></p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>logika</p><p>kuantor universal</p><p>eksistensial</p><p>~ (Эx,y)  = ∀x, ~ y</p><p>__</p><p>soal</p><p>Ingkaran yang tepat dari </p><p>“beberapa peserta pelatihan merupakan mahasiswa teladan”</p><p>~ (Эx,y) ≡    ∀x, ~ y = Semua peserta pelatihan bukan mahasiswa teladan</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="definisi-dedicated-hosting-server-beserta-fungsi%e2%80%8b">
+                            12. definisi dedicated hosting server beserta fungsi​</h2><br />
+                        Dedicated hosting sever adalah layanan hosting berupa server fisik yang ditempati oleh website pelanggan untuk urusan bisnis, untuk testing aplikasi.Fungsinya adalah untuk menjaga website agar tidak crash, untuk mengontrol administratif pada server dan identitas, mengurangi tingkat bounching, <p><strong>Pembahasan</strong></p>Dedicated Hosting adalah jenis layanan hosting yang berbentuk seperti virtualisasi server, dimana memungkinkan pelanggan untuk menyewa bagian server lebih banyak bahkan seluruh server penuh yang bisa ditempati oleh website pelanggan tersebut.<strong>Pelanggan yang ingin menyewa layanan Dedicated Server yaitu :</strong><strong>Dedicated Box Server,</strong> yaitu layanan penyewaan server dari Qword.com.<strong>Virtual Dedicated Server, </strong>yaitu layanan penyewaan server yang terdiri dari beberapa server besar yang dicluster dan dibagi menjadi server kecil dalam bentuk virtualisasi operating system dengan budget yang rendah.<strong>Colocation Server </strong><strong>Keunggulan Dedicated Hosting Server yaitu :</strong>Mencapai uptime dan waktu loading lebih cepat yang mengurangi kemungkinan downtime atau kinerja website yang buruk.Website selau beroperasi secara optimal  karena bisnis tidak diharuskan untuk berbagi bandwidth dengan situs-situs lain.Memberikan update regular untuk melindungi fileMenerima peningkatan jumlah pengunjung dan sumber daya yang fleksibel karena server hanya digunakan oleh satu situs web saja.Website selalu dapat diakses lebih cepat dengan jumlah maksimum bandwidth.<p><strong>Pelajari lebih lanjut</strong></p>Materi tentang pengertian dedicated : brainly.co.id/tugas/3364301<p><strong>Detil Jawaban</strong></p><p>Kelas : IX (SMP)</p><p>Mapel : TIK</p><p>Bab : Layanan dalam internet</p><p>Kode : 9.11.6</p><p>Kata Kunci : Dedicated Hosting Server </p><br />
+                                            <h2 class="ez-toc-section" id="the-teacher-gives-advice-prepare-our-server-well-before-the-final-examtolong-di-bantu%e2%80%8b">
+                            13. the teacher gives advice..........prepare our server well before the final examtolong di bantu​</h2><br />
+                        <p>mekanic cairns for exam </p><br />
+                                            <h2 class="ez-toc-section" id="bagaimana-cara-membuat-proxy-server">
+                            14. bagaimana cara membuat proxy server </h2><br />
+                        CARA MEMBUAT PROXY SERVER<br />PERINTAH UNTUK PROXY SERVER<br /><br />Setting Static IP<br />(eth0=external LAN, eth1=internal LAN)<br /><br />1. Disable Network Manager<br /><br />    sudo update-rc.d -f NetworkManager remove<br />    sudo apt-get remove network-manager network-manager-gnome<br /><br />2. Edit File /etc/network/interfaces &gt;&gt;<br /><br />#  sudo gedit /etc/network/interfaces<br /><br />   lalu masukkan parameter2 berikut :<br /><br />auto eth0<br />iface eth0 inet static<br />address 192.168.1.100<br />netmask 255.255.255.0<br />network 192.168.1.0<br />broadcast 192.168.1.255<br />gateway 192.168.1.1<br /><br />auto eth1<br />iface eth1 inet static<br />address 192.168.50.1<br />netmask 255.255.255.0<br />network 192.168.50.0<br />broadcast 192.168.50.255<br /><br /><br />3. Edit File /etc/resolv.conf &gt;&gt;<br /><br />#  sudo gedit /etc/resolv.conf<br /><br />    lalu masukkan parameter2 berikut :<br /><br />nameserver 202.134.1.10<br />nameserver 202.134.0.155<br /><br />4. Restart Network &gt;&gt; sudo /etc/init.d/networking restart<br /><br />5. Test &gt;&gt; ping google.com<br /><br /><br /><br />instalasi squid....<br />1. instal squid<br />#  sudo apt-get install squid<br /><br /><br />Cara Updates (update dilakukan apa bila dinstal tidak bisa, diinstal terlebih dahulu)<br />  cara update<br /># sudo apt-get update<br /><br /><br />2. first backup file squid.conf<br /><br /># sudo cp /etc/squid/squid.conf /etc/squid/squid.conf.bak<br /><br />3. Edit  file  squid.conf<br /><br /># sudo gedit /etc/squid/squid.conf<br /><br />isi dari jendela perintah squid :<br /><br />http_port 192.168.50.1:3128 transparent<br />visible_hostname www.smkn1baureno.sch.id<br />hierarchy_stoplist cgi-bin ?<br />acl all src 0.0.0.0/0.0.0.0<br />acl manager proto cache_object<br />acl localhost src 127.0.0.1/255.255.255.255<br />acl lan src 192.168.50.0/24<br />acl blokpornourl url_regex -i "/etc/squid/pornourl.txt"<br />http_access deny blokpornourl<br />http_access allow manager localhost<br />http_access allow lan<br />http_access deny manager<br />http_access deny all<br />cache_dir ufs /usr/local/squid/cache 1024 16 256<br />access_log /usr/local/squid/access.log<br />cache_log /usr/local/squid/cache.log<br />cache_store_log none<br />cache_mem 1024 MB<br />cache_swap_low 94<br />cache_swap_high 96<br />maximum_object_size 16384 KB<br />minimum_object_size 4 KB<br />maximum_object_size_in_memory 2048 KB<br />fqdncache_size 1024<br />acl QUERY urlpath_regex cgi-bin \?<br />cache deny QUERY<br />hosts_file /etc/hosts<br />coredump_dir /var/spool/squid<br />cache_mgr nama@smkn1baureno.sch.id<br />cache_effective_user squid<br />cache_effective_group squid<br /><br /><br />4. Creating user and group squid<br /><br /># sudo adduser squid<br /><br />5. Make a directory used for Squid<br /><br /># sudo mkdir /usr/local/squid<br /><br />6. Creating cache directory<br /><br /># sudo mkdir /usr/local/squid/cache<br /><br />7. Making a log cache file which function to monitor activity of client computer<br /><br /># sudo touch /usr/local/squid/cache.log<br /><br />8. Making a log cache file which function to monitor activity of server computer<br /><br /># sudo touch /usr/local/squid/access.log<br /><br />9. Changing the file permissions on the directory squid<br /><br /># chown -Rf squid.squid /usr/local/squid<br /># sudo chown squid.squid /var/spool/squid -Rf<br /># sudo chown squid.squid -Rf /ec/squid<br /><br />10. Create cache directory structure, should be as user root<br /><br /># sudo su<br /># cd /etc/squid<br /># squid -z<br /><br />11. Test squid<br /><br /># squid -d l -D<br /><br />12. Running Squid<br /><br /># squid -sYD<br /><br />13. Viewing events from client computer<br /><br /># tail -f/ usr/local/squid/access.log<br /><br /><br />14. restart squid<br /><br /># sudo /etc/init.d/squid restart<br /><br />15. kalau terjadi fatal harus di chmod seperti dibawah<br /><br />#  sudo chmod -R 777 /usr/local/squid<br /><br />lalu<br /><br />16. masuk dan edit rc lokal<br /><br /># sudo gedit /etc/rc.local<br />                        isikan dibawah ini.......<br /><br />iptables -A FORWARD -i eth0 -o eth1 -s 192.168.0.0/24 -m conntrack --ctstate NEW -j ACCEPT<br />iptables -A FORWARD -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT<br />iptables -t nat -A PREROUTING -i eth1 -p tcp -m tcp --dport 80 -j DNAT --to-destination 192.168.50.1:3128<br />iptables -t nat -A PREROUTING -i eth0 -p tcp -m tcp --dport 80 -j REDIRECT --to-ports 3128<br />iptables -A POSTROUTING -t nat -j MASQUERADE<br />echo 1 &gt; /proc/sys/net/ipv4/ip_forward<br />iptables -t nat -A PREROUTING -i eth1 -p tcp -m tcp --dport 80 -j  REDIRECT --to-ports 3128<br /><br /><br /><br />17. restart squid<br /><br /># sudo /etc/init.d/squid restart<br /><br />18. masuk jendela yang berisi alamat web yang akan di blokir<br /><br /># sudo gedit <br />
+                                            <h2 class="ez-toc-section" id="jelaskan-fungsi-baris-kode-dev-tun-dan-push-route-gateway-10-101-10-1-dalam-konfigurasi-server-conf-server-openvpn%e2%80%8b">
+                            15. jelaskan fungsi baris kode Dev tun dan push route-gateway 10.101.10.1 dalam konfigurasi server.conf server OpenVPN​</h2><br />
+                        <p>Fungsi baris kode Dev tun dan push route-gateway 10.101.10.1 dalam konfigurasi server.conf server OpenVPN​ adalah sebagai berikut: </p>Dev tun: Baris kode ini berfungsi dalam <strong>penggunaan TUN/TAP </strong>interface dalam PC kita, untuk koneksi dial-up layaknya modem GSM atau CDMA gunakan dev tun untuk melakukan IP route.push route-gateway 10.101.10.1: kode ini untuk <strong>menambahkan routing gateway </strong>dengan kode 10.101.10.1.<strong>Penjelasan</strong><p><strong>OpenVPN adalah aplikasi/perangkat lunak sumber terbuka. Tujuannya adalah untuk mengakses internet melalui virtual private network atau sering disingkat  VPN.</strong> OpenVPN sendiri bekerja dengan  membuat koneksi terowongan point-to-point (PTP) terenkripsi. Aplikasi ini menggunakan kunci pribadi dan sertifikat, atau lebih khusus lagi, nama pengguna dan kata sandi untuk otentikasi untuk membuat koneksi. Aplikasi ini tidak hanya memungkinkan Anda  untuk mengakses situs web yang diblokir, tetapi juga dapat menyembunyikan alamat IP Anda saat mengakses Internet.</p><p></p>Pelajari lebih lanjut<p>Pelajari lebih lanjut materi tentang cara menginstal openVpn: https://brainly.co.id/tugas/19344057</p><p></p><p>#BelajarBersamaBrainly</p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-warna-dan-gambar-kode-pada-alat-produksi-rekayasa-teknik-beserta-fungsinya%e2%80%8b">
+                            16. buatlah warna dan gambar kode pada alat produksi rekayasa teknik beserta fungsinya​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1.  Bor</p><p>2. Gergaji</p><p>3. Tang </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="semua-anggota-bem-badan-eksekutif-mahasiswa-harushadir-dalam-rapat-sementara-mahasiswa-adalah-anggotabem-kesimpulan-a-semua-mahasiswa-hadir-dalam-rapat-b-semua-peserta-rapat-bukan-mahasiswa">
+                            17. Semua anggota BEM (Badan Eksekutif Mahasiswa) harushadir dalam rapat. Sementara mahasiswa adalah anggota
+BEM. Kesimpulan :
+A. Semua mahasiswa hadir dalam rapat.
+B. Semua peserta rapat bukan mahasiswa.
+C. Sementara peserta rapat bukan mahasiswa.
+D. Sementara mahasiswa harus hadir dalam rapat
+E. Sementara mahasiswa tidak hadir dalam rapat</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Berdasarkan informasi yang diberikan, kita dapat mengambil kesimpulan:</p><p></p><p>Kesimpulan: D. Sementara mahasiswa harus hadir dalam rapat.</p><p></p><p>Alasan: Dalam pernyataan, disebutkan bahwa "Semua anggota BEM harus hadir dalam rapat" dan "Mahasiswa adalah anggota BEM". Oleh karena itu, kesimpulannya adalah sementara mahasiswa harus hadir dalam rapat.</p><br />
+                                            <h2 class="ez-toc-section" id="soal-1-exam-iqmal-bercerita-selepas-dia-cerita-bagikan-exam-yg-sama-cam-kt-itu">
+                            18. soal || 1. exam: iqmal bercerita selepas dia cerita || bagikan exam yg sama cam kt itu!</h2><br />
+                        <p><strong>E</strong><strong>x</strong><strong>a</strong><strong>m</strong><strong>:</strong></p>Mia bercakap sesaat dia cakap (cakap)Saya tak lihat maka tak elok (k)Tak harus kisahkan orang lain kalah tak kisahkan diri sendiri (kisah)Nuha buatkan gambar dengan kreativiti<p></p><p></p><p>×××××××××××××××××××××</p><p><strong>B</strong><strong>a</strong><strong>h</strong><strong>a</strong><strong>s</strong><strong>a</strong><strong> </strong><strong>M</strong><strong>e</strong><strong>l</strong><strong>a</strong><strong>y</strong><strong>u</strong><strong> </strong><strong>r</strong><strong>u</strong><strong>m</strong><strong>p</strong><strong>u</strong><strong>n</strong><strong> </strong><strong>t</strong><strong>e</strong><strong>t</strong><strong>a</strong><strong>p</strong><strong>i</strong><strong> </strong><strong>b</strong><strong>a</strong><strong>k</strong><strong>u</strong></p><p></p><p>#taktengokmakatakelok</p><br />
+                                            <h2 class="ez-toc-section" id="tuliskan-dan-jelaskan-minimal-4-kode-yang-mewakili-respons-server-terhadap-permintaan-client%e2%80%8b">
+                            19. Tuliskan dan jelaskan minimal 4 kode yang mewakili respons server terhadap permintaan client​</h2><br />
+                        <p><strong>Teknologi Informatika (TI)</strong> merupakan suatu istilah umum dalam teknologi apa saja yang dapat membantu manusia dalam membuat, mengubah, menyimpan, mengomunikasikan, dan menyebarkan informasi. Berdasarkan soal, dapat disimpulkan bahwa <strong>4 kode yang mewakili respons server terhadap permintaan client​</strong> antara lain sebagai berikut:</p>4xx klien error yaitu suatu kode status yang dimaksudkan untuk situasi di mana kesalahan tampaknya disebabkan oleh klien. 1xx respon informasi adalah suatu kode yang menunjukkan bahwa permintaan diterima dan dipahami. 3xx pengalihan yaitu suatu kode status yang menunjukkan klien harus mengambil tindakan tambahan untuk menyelesaikan permintaan.2xx sukses yaitu suatu kode status yang menunjukkan tindakan yang diminta oleh klien telah diterima, dipahami, dan diterima.<p></p><p><strong>Pembahasan:</strong></p><p>Peran TI (Teknologi Informatika) bagi manusia yaitu memudahkan pekerjaan manusia. <strong>Teknologi Informatika (TI)</strong> merupakan suatu istilah umum dalam teknologi apa saja yang dapat membantu manusia dalam membuat, mengubah, menyimpan, mengomunikasikan, dan menyebarkan informasi. Berdasarkan soal, dapat disimpulkan bahwa <strong>4 kode yang mewakili respons server terhadap permintaan client​</strong> antara lain sebagai berikut:</p>4xx klien error yaitu suatu kode status yang dimaksudkan untuk situasi di mana kesalahan tampaknya disebabkan oleh klien. 1xx respon informasi adalah suatu kode yang menunjukkan bahwa permintaan diterima dan dipahami. 3xx pengalihan yaitu suatu kode status yang menunjukkan klien harus mengambil tindakan tambahan untuk menyelesaikan permintaan.2xx sukses yaitu suatu kode status yang menunjukkan tindakan yang diminta oleh klien telah diterima, dipahami, dan diterima.<p><strong>Pelajari lebih lanjut</strong></p>Materi tentang fungsi microsoft word brainly.co.id/tugas/5075012Materi tentang pengertian microsoft word brainly.co.id/tugas/832101Materi tentang cara membuka microsoft word brainly.co.id/tugas/3283447<p><strong>Detail jawaban</strong></p><p><strong>Kelas : 7</strong></p><p><strong>Mapel : TIK</strong></p><p><strong>Bab : Perkembangan Tekonologi Informasi dan Komunikasi</strong></p><p><strong>Kode : 7.11.2</strong></p><p><strong></strong></p><p><strong>#AyoBelajar</strong></p><p><strong>#SPJ2</strong></p><br />
+                                            <h2 class="ez-toc-section" id="bagaimana-cara-membuat-master-server">
+                            20. Bagaimana cara membuat Master Server?</h2><br />
+                        Edit file konfigurasi mysql<br />$sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf atau untuk versi yang lama<br />$sudo nano /etc/mysql/my.cnf <br />Edit/tambahkan baris berikut di file konfirgurasi<br />bind-address            = 192.168.1.1 atau * (address server master)<br />server-id               = 1<br />log_bin                 = /var/log/mysql/mysql-bin.log<br />binlog_do_db            = database1 (database yg mau direplikasi)<br /><br />Kalau mau lebih dari satu database tinggal tambahkan baris lagi <br />binlog_do_db            = database2<br />binlog_do_db            = database3 dst<br />binlog_ignore_db        = database4 (database yg tdk ikut direplikasi) <br />Refresh database mysql $sudo service mysql restart<br />Login ke Mysql<br />#mysql -u root -p<br />mysql&gt;GRANT REPLICATION SLAVE ON *.* TO 'slave_user'@'%' <br />IDENTIFIED BY 'password'; (buat user replikasi)<br />mysql&gt;FLUSH PRIVILEGES;<br />mysql&gt;USE database1;<br />mysql&gt;FLUSH TABLES WITH READ LOCK;<br />mysql&gt;SHOW MASTER STATUS;<br />Akan keluar tampilan seperti berikut <br />mysql&gt; SHOW MASTER STATUS;<br />+------------------+----------+--------------+------------------+<br />| File             | Position | Binlog_Do_DB | Binlog_Ignore_DB |<br />+------------------+----------+--------------+------------------+<br />| mysql-bin.000001 |      107 | database1    |                  |<br />+------------------+----------+--------------+------------------+<br />1 row in set (0.00 sec)<br /><br />Catat File dan Position yang akan digunakan di SERVER SLAVE <br />(contoh disini mysql-bin.000001 dan 107)<br /><br />Backup database yang akan direplikasi untuk diinstal di SERVER SLAVE<br />#mysqldump -u root -p --opt database1 &gt; database1.sql<br /><br />Unlock Tabel<br />mysql&gt;UNLOCK TABLES;<br />mysql&gt;QUIT; <br />Langkah di SERVER MASTER sudah selesai, lanjut ke SERVER SLAVE<br /><br /><br />SERVER SLAVE<br /><br />Buat database yang akan direplikasi di MySQL<br />#mysql -uroot -p<br />mysql&gt;CREATE DATABASE database1;<br />Import struktur database yang sudah dilakukan di server master sebelumnya<br />#mysql -u root -p database1 &lt; /path/to/database1.sql<br />Edit file konfigurasi MySQL<br />$sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf <br />Edit/tambah file konfigurasi mysql <br />server-id               = 2 (nomor harus beda dari Server Master)<br />relay-log               = /var/log/mysql/mysql-relay-bin.log<br />log_bin                 = /var/log/mysql/mysql-bin.log<br />binlog_do_db            = database1 (list database yg direplikasi)<br />Restart MySQL<br />$sudo service mysql restart<br />Buka MySQL <br />#mysql -u root -p<br />mysql&gt;CHANGE MASTER TO MASTER_HOST='12.34.56.789',<br />MASTER_USER='slave_user', <br />MASTER_PASSWORD='password', <br />MASTER_LOG_FILE='mysql-bin.000001', <br />MASTER_LOG_POS=  107; (master log &amp; master pos disesuaikan)<br /><br />Start Slave <br />mysql&gt;START SLAVE;<br />mysql&gt;SHOW SLAVE STATUS\G <br />Jika ada masalah saat koneksi bisa ditambah perintah berikut<br />mysql&gt;SET GLOBAL SQL_SLAVE_SKIP_COUNTER = 1; <br />mysql&gt;SLAVE START; <br />
+                                            <h2 class="ez-toc-section" id="jelaskan-minimal-3-jenis-software-untuk-membuat-server-ftp-beserta-kelebihannya-%e2%80%8b">
+                            21. jelaskan minimal 3 jenis software untuk membuat server ftp beserta kelebihannya? ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>1. FileZilla
+</p><p>FileZilla
+</p><p>
+</p><p>FileZilla FTP Client menempati urutan pertama pada daftar kita kali ini, admin jurnalweb.com sendiri sangat senang menggunakan aplikasi ini untuk mentransfer file, kelebihannya adalah open source, mampu menangani transmisi simultan (transfer multithreaded), mendukung SFTP dan FTPS (yang merupakan singkatan dari FTP diatas SSL). Selain itu, bisa digunakan pada berbagai sistem operasi ternama
+</p><p>
+</p><p>Tersedia untuk Windows, MacOSX maupun Linux.
+</p><p>
+</p><p>
+</p><p>  </p><p>2. Cyberduck
+</p><p>Cyberduck
+</p><p>
+</p><p>Cyberduck dapat menangani berbagai kebutuhan file transfer yang Anda inginkan: SFTP, WebDev, Amazon S3, dan lainnya. Aplikasi ini memiliki tampilan yang minimalis, hal tersebutlah yang membuatnya sangat mudah untuk digunakan.
+</p><p>
+</p><p>Tersedia untuk Windows dan MacOSX.
+</p><p>
+</p><p>3. FireFTP
+</p><p>FireFTP
+</p><p>
+</p><p>FireFTP Ini merupakan add-on Mozilla Firefox yang memiliki fitur FTP/FTPS client namun langsung dari browser Anda. Artinya, aplikasi ini bisa dijalankan selama platform tersebut bisa menjalankan Firefox.
+</p><p>
+</p><p>Tersedia untuk Windows, MacOSX maupun Linux.
+</p><p>
+</p><p>4. Classic FTP
+</p><p>Classic FTP
+</p><p>
+</p><p>Classic FTP adalah FTP client yang gratis untuk penggunaan non-komersial. Aplikasi ini memiliki antarmuka yang sangat sederhana, ini tentu saja menjadi kelebihannya, karena menjadi sangat mudah untuk digunakan. Salah satu fitur menariknya, bisa untuk membandingkan direktori yang bisa membantu untuk melihat perbandingan file yang ada di lokal dan remote server Anda.
+</p><p>
+</p><p>Tersedia untuk Windows dan MacOSX.
+</p><p>
+</p><p>5. WinSCP
+</p><p>WinSCP
+</p><p>
+</p><p>WinSCP merupakan salah satu aplikasi FTP client yang sangat populer, terutama dikalangan pengguna Windows. WinSCP dapat menangani beberapa protokol transfer file (SFTP, SCP, FTP dan WebDev). Aplikasi ini juga memiliki teks editor yang sudah built-in didalamnya untuk memudahkan dalam melakukan perubahan pada file seperti txt, html, js, css, php dan lainnya.
+</p><p>
+</p><p>Tersedia untuk Windows</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="perhatikan-baris-kode-berikut-rootweb-server-1-echo-web1-var-www-html-index-html-fungsi-dari-baris-kode-tersebut-adalah%e2%80%8b">
+                            22. perhatikan baris kode berikut root@web-server 1 :~ #echo "web1" &gt; /var / www / html / index. html fungsi dari baris kode tersebut adalah​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>echo "web1" &gt; /var / www / html / index. html berfungsi untuk <strong>mengisi file index.html (index webpage) dengan tulisan </strong><strong>web1</strong>.</p><p><strong>Penjelasan:</strong></p><p>Dalam Unix, command echo berfungsi untuk mengeluarkan input yang diterima (stdin) ke output yang dituju (stdout). Pada command diatas, inputnya adalah web1, sedangkan outputnya diarahkan ke /var/www/html/index.html melalui operator &gt;. Maka, teks web1 akan diarahkan ke dalam file index.html</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-4-jenis-server-beserta-fungsinya">
+                            23. sebutkan 4 jenis server beserta fungsinya?</h2><br />
+                        1. DATABASE SERVER : digunakan untuk beberapa kegiatan, seperti analisis data, penyimpanan data, pengarsipan dan lain-lain. <br />2. PRINTER SERVER : mencetak menggunakan satu printer untuk mencetak dokumen dalam satu ruangan.<br />3. FILE SERVER : memberikan lokasi untuk akses disk bersama, yaitu penyimpanan bersama file komputer (seperti dokumen, file suara, foto, film, gambar, database, dll) yang dapat diakses oleh workstation yang melekat pada jaringan komputer. <br />4. MAIL SERVER : berfungsi sebagai kantor pos elektronik untuk email.<br /><br />semoga membantu :)<br />maaf kalau salah.<br />
+                                            <h2 class="ez-toc-section" id="tuliskan-kode-kode-perintah-dalam-command-prompt-beserta-fungsinya%e2%80%8b">
+                            24. tuliskan kode kode perintah dalam command prompt beserta fungsinya​</h2><br />
+                        <p>jawaban:</p><strong>a</strong><strong>s</strong><strong>s</strong><strong>o</strong><strong>c</strong><strong>:</strong>menampilkan atau memodikasih nama asosiasi akstensi file.<strong>a</strong><strong>t</strong><strong>t</strong><strong>r</strong><strong>i</strong><strong>b</strong><strong>:</strong>menampilkan atribut file<strong>a</strong><strong>p</strong><strong>p</strong><strong>w</strong><strong>i</strong><strong>z</strong><strong>.</strong><strong>c</strong><strong>p</strong><strong>l</strong><strong>:</strong>untuk membuka jendela Add/Remove Programs.<strong>b</strong><strong>o</strong><strong>c</strong><strong>c</strong><strong>f</strong><strong>g</strong><strong>:</strong>dugunakan untuk memperbaiki file bood.ini.<strong>c</strong><strong>a</strong><strong>c</strong><strong>l</strong><strong>:</strong>untuk membuka program kalkulator.<strong>c</strong><strong>d</strong><strong>:</strong>menampilkan direktori yg sedang dibuka.<p></p><br />
+                                            <h2 class="ez-toc-section" id="tolong-carikan-soal-ujian-nasional-matematika-tingkat-sma-tentang-program-linear-beserta-kode-soalnya-dan-tahunnya-%c2%a0">
+                            25. tolong carikan soal ujian nasional MATEMATIKA tingkat SMA tentang program linear...beserta kode soalnya dan tahunnya :) </h2><br />
+                        Silahkan gan yang nomer 8  :D maaf kalo kurang jelas :D<br /><br />
+                                            <h2 class="ez-toc-section" id="tolong-artiin-buat-exam-soalnya-nih">
+                            26. Tolong artiin buat exam soalnya nih..</h2><br />
+                        Gambar 1<p>Ruang pengunduran diri</p>Gambar 2<p>Sebuah dapur</p>Gambar 3<p>Vas bunga</p><p></p><p><strong>M</strong><strong>a</strong><strong>a</strong><strong>f</strong><strong> </strong><strong>k</strong><strong>a</strong><strong>l</strong><strong>a</strong><strong>u</strong><strong> </strong><strong>s</strong><strong>a</strong><strong>l</strong><strong>a</strong><strong>h</strong></p><p><strong>Jawaban:</strong></p><p>غرفة الاستقال:Ruang Pengunduran Diri.</p><p>مطبح:Batuk.</p><p>زهرتة:Bunganya.</p><p>Penjelasan:</p><p>Semoga Membantu...</p><p>Jangan Lupa Follow Aku Ya...</p><p></p><p></p><p></p><p></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-contoh-booting-sederhanakode-program-beserta-hasil-tampillnya%e2%80%8b">
+                            27. Buatlah contoh booting sederhanaKode program beserta hasil tampillnya​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Booting adalah proses di mana sistem operasi dimuat ke dalam memori utama komputer setelah dinyalakan. Proses booting melibatkan beberapa langkah dan tidak dapat ditunjukkan dengan kode program sederhana.</p><p></p><p>Namun, jika Anda ingin melihat contoh kode program yang menampilkan pesan saat komputer dinyalakan, Anda bisa menggunakan bahasa pemrograman seperti C untuk membuat program sederhana yang menampilkan pesan saat dijalankan. Berikut adalah contoh kode program sederhana dalam bahasa C yang menampilkan pesan "Hello, World!" saat dijalankan:</p><p></p><p>#include &lt;stdio.h&gt;</p><p></p><p>int main() {</p><p>    printf("Hello, World!\n");</p><p>    return 0;</p><p>}</p><p></p><p>Hasil tampilan dari kode program di atas adalah sebagai berikut:</p><p></p><p>Hello, World!</p><br />
+                                            <h2 class="ez-toc-section" id="23-seorang-peneliti-berencana-untuk-mengidentifikasi-setiap-peserta-pada-sebuah-eksperimen-medis-menggunakan-sebuah-kode-kode-dapat-dibentuk-oleh-satu-buah-huruf-saja-atau-dua-buah-huruf-yang-berur">
+                            28. 23. Seorang peneliti berencana untuk mengidentifikasi setiap peserta pada sebuah eksperimen medis menggunakan sebuah kode, Kode dapat dibentuk oleh satu buah huruf saja, atau dua buah huruf yang berurutan secara alfabetis (contoh kode: B, T, Z, AB, CD, AG), Jika pada sebuah eksperimen terdapat 12 peserta dan setiap peserta akan mendapat kode yang berbeda-beda, berapa paling sedikit banyak huruf yang dapat digunakan untuk membuat kode bagi setiap peserta?a. 4b. 5c. 6d. 7e. 8​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>7 kalo gk slah</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>liat dri huruf dn jumlah kan</p><br />
+                                            <h2 class="ez-toc-section" id="jika-anda-diharuskan-memilih-antara-virtual-private-server-dan-dedicated-server-yang-mana-akan-anda-pilih-sertakan-alasan-anda%e2%80%8b">
+                            29. jika anda diharuskan memilih antara virtual private server dan dedicated server yang mana akan Anda pilih sertakan alasan anda?​</h2><br />
+                        <p><strong>Jawaban:virtual private server (vps)</strong></p><p></p><p><strong>Penjelasan: karena lebih murah </strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="kenapa-saat-membuat-dhcp-server-winbox-mikrotik-dengan-server-199-99-9-1-malah-muncul-di-client-nya-ip-server-lain">
+                            30. kenapa saat membuat dhcp server winbox mikrotik dengan server 199.99.9.1 malah muncul di client nya ip server lain?</h2><br />
+                        itu terjadi karena pengaturan ip pada client tidak sesuai.<br />karena pada microtik terdapat beberapa networt adapter yang juga harus di seting semua.<br />cara simplenya reset total microtik dan sewaktu masuk ke microtik pertama kali nanti akan muncul pilihan apakah akan menggunkan setingan default,pilih aja tidak.<br />makan baru seting ip untuk ethernetnya satu persatu dan juga diseting dhcp server ipnya mulai dari ip berapa aja yg di perlukan<br />
+                                            <h2 class="ez-toc-section" id="apa-yang-di-maksud-dengan-web-server-beserta-fungsinya">
+                            31. Apa yang di maksud dengan Web Server? beserta fungsinya..</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>Mungkin maksud Anda adalah: Apa yang dimaksud dengan Web Server? beserta fungsinya..</p><p></p><p>Hasil Telusur</p><p></p><p>Cuplikan pilihan dari web</p><p></p><p>￼</p><p></p><p>Server atau Web server adalah sebuah software yang memberikan layanan berbasis data dan berfungsi menerima permintaan dari HTTP atau HTTPS pada klien yang dikenal dan biasanya kita kenal dengan nama web browser (Mozilla Firefox, Google Chrome) dan untuk mengirimkan kembali yang hasilnya dalam bentuk beberapa halaman</p><p><strong>Jawaban:</strong></p><p><strong>Web server</strong> adalah perangkat lunak yang berfungsi sebagai penerima permintaan yang dikirimkan melalui browser kemudian memberikan tanggapan permintaan dalam bentuk halaman situs web atau lebih umumnya dalam dokumen HTML.</p><p><strong>Fungsi Web Server </strong>adalah</p>Memastikan semua modul yang dibutuhkan  tersedia dan siap digunakan
+Membersihkan penyimpanan, cache, dan module yang tidak terpakai
+Melakukan pemeriksaan keamanan terhadap HTTP request yang dikirimkan browser<p><strong>Penjelasan:</strong></p><p>Namun, web server dapat mempunyai dua pengertian berbeda, yaitu sebagai bagian dari perangkat keras (hardware) maupun sebagai bagian dari perangkat lunak (software).
+</p><p>
+</p><p>Jika merujuk pada hardware, web server digunakan untuk menyimpan semua data seperti HTML dokumen, gambar, file CSS stylesheets, dan file JavaScript. Sedangkan pada sisi software, fungsi web server adalah sebagai pusat kontrol untuk memproses permintaan yang diterima dari browser.</p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-topologi-jaringan-yang-terdiri-dari-24-komputer-1-server-dan-2-modem-disertakan-juga-ip-subnet-mas-dan-gatewaynya">
+                            32. Buatlah Topologi jaringan yang terdiri dari 24 komputer 1 server dan 2 modem disertakan juga IP , subnet mas , dan gatewaynya</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>huuhhiujhuiiijuiiii</p><br />
+                                            <h2 class="ez-toc-section" id="apa-tujuan-membuat-mail-server">
+                            33. apa tujuan membuat mail server</h2><br />
+                        TUJUAN.Siswa dapat mendiskripsikan secara singkat sejarah Mail Server<br /><br />Siswa dapat menjelaskan fungsi dan kegunaan Mail Server <br /><br />Siswa dapat mempraktekan tata cara pembuatan Mail Serverd.<br /><br /><br />Siswa dapat menerapkan keselamatan kerja<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-3-jenis-server-berserta-fungsinya">
+                            34. sebutkan 3 jenis server berserta fungsinya</h2><br />
+                        1. File server : layanan pengelolaan file<br />2. Print server : layanan fungsi pencetakan <br />3. Database : database penyimpanan pada server <br /><br />Maaf kalo salah, semoga membantu ya<br />
+                                            <h2 class="ez-toc-section" id="kode-jaringan-komputer-yang-setiap-host-dapat-menjadi-server-dan-juga-menjadi-sayuran-secara-bersamaan-adalah">
+                            35. Kode jaringan komputer yang setiap host dapat menjadi server dan juga menjadi sayuran secara bersamaan adalah</h2><br />
+                        <p>Jawaban:</p><p>Jaringan peer to peer(P2P)</p><p>Penjelasan:</p><p>Jaringan komputer di mana setiap host dapat menjadi server dan juga menjadi client secara bersamaan disebut jaringan peer-to-peer</p><br />
+                                            <h2 class="ez-toc-section" id="materi-tentang-analisis-kebutuhan-perangkat-server-beserta-spek-hardware-dan-software-untuk-server">
+                            36. materi tentang analisis kebutuhan perangkat server beserta spek hardware dan software untuk server?</h2><br />
+                        Operating systemnya pasti harus windows serverkalau menurut saya untuk membuat server lebih baik menggunakan os linux,,<br />karena banyak memiliki kelebihan,,<br />contoh nya adalah tidak akan kna virus,,<br />paling stabil untuk server,,<br />dan tidak mudah eror,,<br />
+                                            <h2 class="ez-toc-section" id="kode-untuk-soal-ujian-terdiri-atas-tiga-karakter-digit-karakter-pertama-adalah-huruf-sementara-karakter-kedua-dan-ketiga-adalah-dua-angka-yang-berlainan-banyak-kode-soal-yang-dapat-dibuat-adalah">
+                            37. kode untuk soal ujian terdiri atas tiga karakter (digit)  karakter pertama adalah huruf sementara karakter kedua dan ketiga adalah dua angka yang berlainan banyak kode soal yang dapat dibuat adalah </h2><br />
+                        1.huruf <br />2.angka <br />3.angka <br />26×90= 2340      <br />
+                                            <h2 class="ez-toc-section" id="tolong-buatkan-daily-aktivity-mahasiswa-2-paragraf-beserta-artinya">
+                            38. tolong buatkan daily aktivity mahasiswa 2 paragraf beserta artinya</h2><br />
+                        I wake up in the early morning every day. Clean up my bed and go to take a bath. Then do my morning prayer in the mosque when the calling came. After praying, I take a walk to the play ground near the house. I do some morning exercises just for warming-up before I start my daily activity. After 15 to 20 minutes, I go back to home to prepare go to college.<br /><br />(Saya bangun di pagi buta setiap hari. Membereskan tempat tidur saya dan pergi mandi. Lalu pergi sholat di masjid saat adzan berkumandang. Setelah sholat, saya berjalan menuju lapangan bermain dekat rumah. Saya berolahraga ringan sekedar melakukan pemanasan sebelumberaktifitas. Setelah 15-20 menit, saya kembali ke rumah untuk bersiap pergi kuliah.)<br /><br />I usually have a breakfast with my family. My mother always give me a lunch box to bring for lunch. Finish breakfast, I go to college by my bike, it's not too far from my house. Some of my friends also go to college by bike. I always meet them on the way to the college.<br /><br />(Saya selalu sarapan bersama keluarga. Ibu saya selalu memberikan bekal makan siang untuk saya. Selesai sarapan, Saya pergi kuliah dengan bersepedah, jarak kampus tidaklah terlalu jauh dari rumah. Beberapa teman saya juga pergi dengan bersepedah. Saya selalu bertemu mereka dalam perjalanan.)<br />
+                                            <h2 class="ez-toc-section" id="membuat-aliran-sistem-imformasih-pendaptaran-mahasiswa-baru-beserta-arsif-lama-dan-arsif-baru%e2%80%8b">
+                            39. membuat aliran sistem imformasih pendaptaran mahasiswa baru beserta arsif lama dan arsif baru​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>bodi amat ............</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="di-bawah-ini-yang-bukan-merupakan-tugas-utama-dari-seorang-admin-server-adalah-a-membangun-server-b-mengelola-server-c-memperbaiki-server-d-memelihara-server-e-membuat-laporan-server">
+                            40. Di bawah ini yang bukan merupakan tugas utama dari seorang admin server adalah .... a. membangun server b. mengelola server c. memperbaiki server d. memelihara server e. membuat laporan server</h2><br />
+                        E.membuat laporan server<br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/Uf2B0jwDpjo?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>sbmptn</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/soal-uts-bahasa-indonesia-kelas-9-kurikulum-2013.html">Soal Uts Bahasa Indonesia Kelas 9 Kurikulum 2013</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/contoh-soal-statistika-independen-dipenden-beserta-cara-penyelesaiannya.html">Contoh Soal Statistika Independen Dipenden Beserta Cara Penyelesaiannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/soal-bahasa-indonesia-kls-2-sd-sem-2-menyusun-kalimat.html">Soal Bahasa Indonesia Kls 2 Sd Sem 2 Menyusun Kalimat</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/soal-bahasa-indonesia-ukk-kelas-2-sd.html">Soal Bahasa Indonesia Ukk Kelas 2 Sd</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/soal-bahasa-indonesia-tentang-diskusi-beserta-jawabannya.html">Soal Bahasa Indonesia Tentang Diskusi Beserta Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/contoh-soal-pilgan-akuntansi-keuangan.html">Contoh Soal Pilgan Akuntansi Keuangan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/soal-dan-pembahasan-bahasa-inggris-sma.html">Soal Dan Pembahasan Bahasa Inggris Sma</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/soal-sma-bahasa-indonesia-kelas-xi.html">Soal Sma Bahasa Indonesia Kelas Xi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/contoh-short-message-beserta-soal-dan-jawaban.html">Contoh Short Message Beserta Soal Dan Jawaban</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/contoh-soal-bahasa-inggris-50-nomorkelas-12.html">Contoh Soal Bahasa Inggris 50 Nomorkelas 12</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/soal-try-out-bahasa-indonesia-tahun-2017-2018.html">Soal Try Out Bahasa Indonesia Tahun 2017 2018</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/kisi-kisi-soal-usbn-bahasa-inggris-sma-2018.html">Kisi Kisi Soal Usbn Bahasa Inggris Sma 2018</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/contoh-soal-essay-ekonomi-kelas-12-semester-2-beserta-jawabannya.html">Contoh Soal Essay Ekonomi Kelas 12 Semester 2 Beserta Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/contoh-soal-tes-akademik-bahasa-inggris-brigadir-polri.html">Contoh Soal Tes Akademik Bahasa Inggris Brigadir Polri</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/soal-distribusi-t-serta-pembahasan.html">Soal Distribusi T Serta Pembahasan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/soal-anatomi-fisiologi-sistem-sistem-pernafasan-beserta-jawaban.html">Soal Anatomi Fisiologi Sistem Sistem Pernafasan Beserta Jawaban</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/soal-perhitungan-akuntansi-laporan-keuangan.html">Soal Perhitungan Akuntansi Laporan Keuangan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/contoh-soal-sinonim-dan-antonim-beserta-jawabannya.html">Contoh Soal Sinonim Dan Antonim Beserta Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/soal-bahasa-inggris-kelas-7-semester-2-job-and-description.html">Soal Bahasa Inggris Kelas 7 Semester 2 Job And Description</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://bukusoal.github.io/contoh-soal-request-text-pilihan-ganda-beserta-jawabannya.html">Contoh Soal Request Text Pilihan Ganda Beserta Jawabannya</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://bukusoal.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://bukusoal.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://bukusoal.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://bukusoal.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://bukusoal.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
